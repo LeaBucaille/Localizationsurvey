@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <p class="brand" id="brand"></p>
+      <div class="lang" id="lang-box" hidden>
+        <label for="lang-select" class="visually-hidden">Language</label>
+        <select id="lang-select"></select>
+      </div>
+    </div>
+    <div class="progress" id="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Progress">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript>This survey needs JavaScript to run.</noscript>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,749 @@
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "section": {
+        "en": "About you and your requests"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "Please select your GEO/Organization."
+      },
+      "options": [
+        {
+          "en": "CHINA"
+        },
+        {
+          "en": "EUROCENTRAL"
+        },
+        {
+          "en": "EUROMED"
+        },
+        {
+          "en": "EUROWEST"
+        },
+        {
+          "en": "JAPAN"
+        },
+        {
+          "en": "KOREA"
+        },
+        {
+          "en": "LATAM"
+        },
+        {
+          "en": "RUSSIA"
+        },
+        {
+          "en": "COM/CORP"
+        },
+        {
+          "en": "OTHER GEOs"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "section": {
+        "en": "About you and your requests"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "How often do you submit localization requests to the Marketing Localization team?"
+      },
+      "options": [
+        {
+          "en": "About once a week"
+        },
+        {
+          "en": "A few times a month"
+        },
+        {
+          "en": "Less than once a month"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "section": {
+        "en": "Our service"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "How would you rate the reactivity of the Marketing Localization team when sending a request?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Very slow"
+      },
+      "maxLabel": {
+        "en": "Very responsive"
+      }
+    },
+    {
+      "id": "Q4",
+      "section": {
+        "en": "Our service"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "How would you rate the clarity and completeness of the information provided by the Marketing Localization team to support your requests?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Very poor"
+      },
+      "maxLabel": {
+        "en": "Excellent"
+      }
+    },
+    {
+      "id": "Q5",
+      "section": {
+        "en": "Our service"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "How would you rate the support provided by the Localization Team on a day-to-day basis to meet your localization needs?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Very poor"
+      },
+      "maxLabel": {
+        "en": "Excellent"
+      }
+    },
+    {
+      "id": "Q6",
+      "section": {
+        "en": "Our service"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "How would you rate the simplicity of the process to submit a localization request?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Very complicated"
+      },
+      "maxLabel": {
+        "en": "Very simple"
+      }
+    },
+    {
+      "id": "Q7a",
+      "section": {
+        "en": "Delivery and quality"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "Are you satisfied with the delivery timeframes?"
+      },
+      "options": [
+        {
+          "en": "Yes"
+        },
+        {
+          "en": "No"
+        }
+      ]
+    },
+    {
+      "id": "Q7b",
+      "section": {
+        "en": "Delivery and quality"
+      },
+      "type": "text",
+      "required": true,
+      "text": {
+        "en": "If you are not satisfied by the delivery timeframe, please explain why."
+      },
+      "showIf": {
+        "id": "Q7a",
+        "in": [
+          "No"
+        ]
+      }
+    },
+    {
+      "id": "Q8a",
+      "section": {
+        "en": "Delivery and quality"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "Are you satisfied with the linguistic quality of the translations?"
+      },
+      "options": [
+        {
+          "en": "Yes"
+        },
+        {
+          "en": "No"
+        }
+      ]
+    },
+    {
+      "id": "Q8b",
+      "section": {
+        "en": "Delivery and quality"
+      },
+      "type": "multiple",
+      "required": true,
+      "text": {
+        "en": "What type(s) of issues did you encounter?"
+      },
+      "hint": {
+        "en": "Select all that apply."
+      },
+      "showIf": {
+        "id": "Q8a",
+        "in": [
+          "No"
+        ]
+      },
+      "options": [
+        {
+          "en": "Terminology"
+        },
+        {
+          "en": "Tone / style"
+        },
+        {
+          "en": "Accuracy (mistranslation)"
+        },
+        {
+          "en": "Consistency"
+        },
+        {
+          "en": "Formatting / layout"
+        },
+        {
+          "en": "Other"
+        }
+      ]
+    },
+    {
+      "id": "Q8c",
+      "section": {
+        "en": "Delivery and quality"
+      },
+      "type": "text",
+      "required": true,
+      "text": {
+        "en": "Please indicate the language(s) concerned and explain."
+      },
+      "showIf": {
+        "id": "Q8a",
+        "in": [
+          "No"
+        ]
+      }
+    },
+    {
+      "id": "Q9",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "How often do you consult the Marketing Localization at 3DS community and the Marketing Localization Dashboard (request/localized pages follow up, corp customer stories follow up, analytics/pages performance, etc)?"
+      },
+      "options": [
+        {
+          "en": "Once a week or more"
+        },
+        {
+          "en": "Once a month"
+        },
+        {
+          "en": "I've never accessed it"
+        }
+      ]
+    },
+    {
+      "id": "Q10a",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "How useful is the collabgrid to follow your localization request?"
+      },
+      "options": [
+        {
+          "en": "Very useful"
+        },
+        {
+          "en": "Useful"
+        },
+        {
+          "en": "Not useful"
+        },
+        {
+          "en": "I was not aware of this collab grid"
+        }
+      ]
+    },
+    {
+      "id": "Q10b",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "text",
+      "required": false,
+      "text": {
+        "en": "What would make the collabgrid more useful to you?"
+      },
+      "showIf": {
+        "id": "Q10a",
+        "in": [
+          "Not useful"
+        ]
+      }
+    },
+    {
+      "id": "Q11a",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "Do you think the Localization wiki provides enough information and resources on how to use the review tools (Trados Enterprise / Phrase)?"
+      },
+      "options": [
+        {
+          "en": "Yes"
+        },
+        {
+          "en": "No"
+        }
+      ]
+    },
+    {
+      "id": "Q11b",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "text",
+      "required": true,
+      "text": {
+        "en": "If not, please indicate what additional resources or content you would find useful."
+      },
+      "showIf": {
+        "id": "Q11a",
+        "in": [
+          "No"
+        ]
+      }
+    },
+    {
+      "id": "Q12",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "multiple",
+      "required": true,
+      "text": {
+        "en": "Which section(s) of the WIKI do you visit the most?"
+      },
+      "hint": {
+        "en": "Select up to 2."
+      },
+      "maxSelect": 2,
+      "options": [
+        {
+          "en": "Localization Process"
+        },
+        {
+          "en": "Online Review Tools"
+        },
+        {
+          "en": "Resources"
+        },
+        {
+          "en": "I don't use the wiki",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "section": {
+        "en": "Tools and resources"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "How easy do you find it to use the online review tools (Trados Enterprise / Phrase)?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Very difficult"
+      },
+      "maxLabel": {
+        "en": "Very easy"
+      },
+      "extraOptions": [
+        {
+          "en": "I don't review content myself"
+        }
+      ]
+    },
+    {
+      "id": "Q14a",
+      "section": {
+        "en": "Feedback loop"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "How often do you fill in the quality rating feedback survey included in the final delivery emails?"
+      },
+      "options": [
+        {
+          "en": "Always"
+        },
+        {
+          "en": "Rarely"
+        },
+        {
+          "en": "Never"
+        }
+      ]
+    },
+    {
+      "id": "Q14b",
+      "section": {
+        "en": "Feedback loop"
+      },
+      "type": "multiple",
+      "required": true,
+      "text": {
+        "en": "What is the main reason?"
+      },
+      "hint": {
+        "en": "Select all that apply."
+      },
+      "showIf": {
+        "id": "Q14a",
+        "in": [
+          "Rarely",
+          "Never"
+        ]
+      },
+      "options": [
+        {
+          "en": "I was not aware of it"
+        },
+        {
+          "en": "I don't have time"
+        },
+        {
+          "en": "I don't see how the results are used"
+        },
+        {
+          "en": "The survey is too long / complicated"
+        },
+        {
+          "en": "Other"
+        }
+      ]
+    },
+    {
+      "id": "Q19",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "Compared with this year, how do you expect your localization volume to evolve in 2027?"
+      },
+      "options": [
+        {
+          "en": "Increase significantly"
+        },
+        {
+          "en": "Increase slightly"
+        },
+        {
+          "en": "Stay about the same"
+        },
+        {
+          "en": "Decrease"
+        },
+        {
+          "en": "I don't know yet"
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "text",
+      "required": false,
+      "text": {
+        "en": "Are there languages or markets for which you currently lack localization support, or would need it in 2027?"
+      }
+    },
+    {
+      "id": "Q22a",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "In the past 12 months, have you localized content without going through the Marketing Localization team (local agency, colleagues, online tools, etc.)?"
+      },
+      "options": [
+        {
+          "en": "Yes, regularly"
+        },
+        {
+          "en": "Yes, occasionally"
+        },
+        {
+          "en": "No"
+        }
+      ]
+    },
+    {
+      "id": "Q22b",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "multiple",
+      "required": true,
+      "text": {
+        "en": "Why?"
+      },
+      "hint": {
+        "en": "Select all that apply."
+      },
+      "showIf": {
+        "id": "Q22a",
+        "in": [
+          "Yes, regularly",
+          "Yes, occasionally"
+        ]
+      },
+      "options": [
+        {
+          "en": "It was faster"
+        },
+        {
+          "en": "The content was too urgent"
+        },
+        {
+          "en": "Budget / cost reasons"
+        },
+        {
+          "en": "The language was not covered"
+        },
+        {
+          "en": "The content type was not covered"
+        },
+        {
+          "en": "Quality expectations"
+        },
+        {
+          "en": "I did not know the team could help"
+        },
+        {
+          "en": "Other"
+        }
+      ]
+    },
+    {
+      "id": "Q22c",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "text",
+      "required": true,
+      "text": {
+        "en": "How did you localize the content?"
+      },
+      "showIf": {
+        "id": "Q22a",
+        "in": [
+          "Yes, regularly",
+          "Yes, occasionally"
+        ]
+      }
+    },
+    {
+      "id": "Q23a",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "In the past 12 months, have you decided not to localize a piece of content you would have liked to localize?"
+      },
+      "options": [
+        {
+          "en": "Yes"
+        },
+        {
+          "en": "No"
+        }
+      ]
+    },
+    {
+      "id": "Q23b",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "multiple",
+      "required": true,
+      "text": {
+        "en": "Why?"
+      },
+      "hint": {
+        "en": "Select all that apply."
+      },
+      "showIf": {
+        "id": "Q23a",
+        "in": [
+          "Yes"
+        ]
+      },
+      "options": [
+        {
+          "en": "Timeline too tight"
+        },
+        {
+          "en": "Process seemed too heavy"
+        },
+        {
+          "en": "Budget"
+        },
+        {
+          "en": "Not sure the team could support it"
+        },
+        {
+          "en": "Low priority"
+        },
+        {
+          "en": "Other"
+        }
+      ]
+    },
+    {
+      "id": "Q25",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "To what extent does localized content help you reach your local marketing objectives?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Not at all"
+      },
+      "maxLabel": {
+        "en": "Very much"
+      },
+      "extraOptions": [
+        {
+          "en": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "Q24a",
+      "section": {
+        "en": "Looking ahead"
+      },
+      "type": "single",
+      "required": true,
+      "text": {
+        "en": "How comfortable would you be with the team using machine translation / AI followed by human review for some types of content?"
+      },
+      "options": [
+        {
+          "en": "Very comfortable"
+        },
+        {
+          "en": "Comfortable for some content types only"
+        },
+        {
+          "en": "Not very comfortable"
+        },
+        {
+          "en": "Not comfortable at all"
+        },
+        {
+          "en": "No opinion"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "section": {
+        "en": "Overall"
+      },
+      "type": "scale",
+      "required": true,
+      "text": {
+        "en": "Overall, how would you rate your interaction and experience with the Marketing Localization team?"
+      },
+      "min": 1,
+      "max": 4,
+      "minLabel": {
+        "en": "Very poor"
+      },
+      "maxLabel": {
+        "en": "Excellent"
+      }
+    },
+    {
+      "id": "Q27",
+      "section": {
+        "en": "Overall"
+      },
+      "type": "text",
+      "required": false,
+      "text": {
+        "en": "What is the main strength of the Marketing Localization team?"
+      }
+    },
+    {
+      "id": "Q16",
+      "section": {
+        "en": "Overall"
+      },
+      "type": "text",
+      "required": false,
+      "text": {
+        "en": "Do you have any additional comments or suggestions for improving our localization services?"
+      }
+    }
+  ]
+}
